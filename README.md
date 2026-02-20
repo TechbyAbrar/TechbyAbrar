@@ -2,45 +2,44 @@
 
 ### 🚀 Senior Backend Engineer | Distributed Systems | Python, Django, FastAPI
 
-I design and build **scalable, reliable, production-grade backend systems** — from API architecture and system design to deployment, infrastructure, and horizontal scaling.  
+I build **scalable, reliable, production-grade backend systems** — from API architecture and system design to deployment, infrastructure, and horizontal scaling.  
 Focused on **core engineering, performance, reliability, and real-world product systems**.
 
 ---
 
-## 🧠 Engineering Overview (At a Glance)
+## 🧠 What I Do (At a Glance)
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏗️ Architecture & Platforms
+### 🏗️ Architecture & APIs
 - Backend architecture & system design  
 - Django, DRF, FastAPI  
-- Modular services / microservices mindset  
 - Clean architecture, separation of concerns  
-- Clear API / domain / infra boundaries  
+- Modular services / microservices mindset  
+- Clear API contracts & boundaries  
 
-### 📈 Scaling & Performance
+### ⚡ Performance & Scaling
 - Horizontal scaling & high availability  
 - < 200ms latency targets  
 - O(1) / O(log n) critical paths  
 - Optimized queries, indexing, bulk ops  
-- Redis caching with invalidation  
+- Redis caching for hot paths  
 
 </td>
 <td width="50%">
 
 ### 🐳 Infrastructure & Operations
 - Docker, VPS, Nginx, Linux, Gunicorn  
+- Async/background jobs (Celery)  
+- DNS, SSL, environment-based config  
 - Deployable, rollback-friendly services  
-- DNS, SSL, env-based configuration  
-- Async / background tasks (Celery)  
 
 ### 🛡️ Quality, Security & Reliability
-- PEP-8, clean code, strong type hints  
+- Clean code, PEP-8, strong type hints  
 - transaction.atomic(), idempotent APIs  
 - Secure auth, RBAC, input sanitization  
-- Brute-force protection, secrets management  
 - Structured logging, metrics, health checks  
 
 </td>
@@ -49,63 +48,25 @@ Focused on **core engineering, performance, reliability, and real-world product 
 
 ---
 
-## 🧭 Engineering Principles
+## 🧭 Engineering Philosophy
 
 > **Build only what is necessary. Avoid over-engineering. Optimize for clarity, reliability, and scale.**
 
-<table>
-<tr>
-<td width="50%">
-
-### ⚙️ API Engineering
-- Strict validation (DRF / Pydantic)  
-- Consistent response contracts  
-- Versioning, pagination, rate limiting  
-- Meaningful errors & correct status codes  
-- Logging for critical paths  
-
-### 🔍 Observability & Operability
-- Structured, searchable logs  
-- Monitoring & health checks  
-- Tracing mindset for distributed systems  
-- Production-first, predictable behavior  
-
-</td>
-<td width="50%">
-
-### 🧰 Engineering Best Practices
-- Clean architecture, consistent patterns  
-- Modular, scalable, testable designs  
-- No unnecessary abstractions  
-- Independent deployability  
-- Clear service contracts  
-
-### 🎯 North Star
-- Simple systems that scale  
-- Secure by default  
-- Easy to change and reason about  
-- Reliable in production  
-
-</td>
-</tr>
-</table>
+- Simple systems over complex ones  
+- Explicit contracts over magic  
+- Performance where it matters  
+- Reliability before features  
+- Production-first thinking  
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🧩 Backend & APIs
-Python • Django • Django REST Framework (DRF) • FastAPI • django-bolt  
-RESTful APIs • Auth Systems • Service-Oriented Design • Clean Architecture
-
-### 🐳 Infrastructure & DevOps
-VPS • Docker • Nginx • Gunicorn • Linux  
-DNS & Domain Management • SSL/TLS • SSH • CI/CD Basics
-
-### 🏗️ Systems & Engineering
-System Design • Horizontal Scaling • Caching Strategies  
-Performance Optimization • Reliability • High Availability  
-Observability (logs/metrics mindset) • Maintainable Codebases
+**Backend:** Python, Django, DRF, FastAPI, django-bolt  
+**Data & Cache:** PostgreSQL, Redis  
+**Async:** Celery  
+**Infra:** Docker, Nginx, Gunicorn, Linux, VPS  
+**Practices:** System Design, Clean Architecture, Observability, CI/CD Basics  
 
 ---
 
@@ -124,22 +85,20 @@ Observability (logs/metrics mindset) • Maintainable Codebases
 
 ## 🏗️ Selected Work
 
-- 🔹 **backend-api-starter** — Production-ready Django/DRF API boilerplate with best practices  
-- 🔹 **fastapi-services** — High-performance FastAPI services & microservice patterns  
-- 🔹 **django-auth-system** — Custom authentication & role-based access control  
-- 🔹 **deployment-guides** — VPS, Docker, Nginx, DNS & domain deployment playbooks  
-
-*(More system-focused projects in repositories — focused on backend, infra & scalability.)*
+- **backend-api-starter** — Production-ready Django/DRF API boilerplate  
+- **fastapi-services** — High-performance FastAPI services & patterns  
+- **django-auth-system** — Custom authentication & RBAC  
+- **deployment-guides** — VPS, Docker, Nginx, DNS deployment playbooks  
 
 ---
 
-## 🚧 What I’m Building & Improving
+## 🌱 Current Focus
 
-- Designing systems for **horizontal scaling & high availability**  
-- Improving **deployment pipelines & infrastructure automation**  
+- Designing for **horizontal scaling & high availability**  
+- Improving **deployment & infrastructure automation**  
 - Deepening **system design & core engineering**  
 - Learning **Go (Golang)** for high-performance backend systems  
-- Solving **algorithmic & engineering problems** consistently  
+- Practicing **algorithms & problem solving**  
 
 ---
 
