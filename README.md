@@ -165,3 +165,15 @@ Observability (logs/metrics mindset) • Maintainable Codebases
 ![Docs](https://img.shields.io/badge/Documentation-000000?style=for-the-badge&logo=readthedocs&logoColor=white)
 
 ![Go](https://img.shields.io/badge/Go-Learning-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+
+## 📊 Engineering & Problem Solving Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TechbyAbrar&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechbyAbrar&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/techbyabrar?theme=dark&font=Karma&ext=heatmap" />
+</p>
