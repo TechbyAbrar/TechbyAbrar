@@ -7,86 +7,88 @@ Focused on **core engineering, performance, reliability, and real-world product 
 
 ---
 
-## 🧠 Engineering Focus
+## 🧠 Engineering Overview (At a Glance)
 
-- 🏗️ Backend Architecture & System Design  
-- ⚙️ Scalable API Platforms (Django, DRF, FastAPI)  
-- 📈 Horizontal Scaling, Performance & Reliability  
-- 🐳 Containerization & Deployment (Docker, VPS, Nginx)  
-- 🔐 Security, Auth Systems, Infrastructure Fundamentals  
-- 🧩 Product Engineering & Cross-Team Collaboration  
-- 🛠️ Core Engineering: Maintainability, Observability, Clean Architecture  
-- 🌱 Currently learning **Go (Golang)** for high-performance systems  
+<table>
+<tr>
+<td width="50%">
+
+### 🏗️ Architecture & Platforms
+- Backend architecture & system design  
+- Django, DRF, FastAPI  
+- Modular services / microservices mindset  
+- Clean architecture, separation of concerns  
+- Clear API / domain / infra boundaries  
+
+### 📈 Scaling & Performance
+- Horizontal scaling & high availability  
+- < 200ms latency targets  
+- O(1) / O(log n) critical paths  
+- Optimized queries, indexing, bulk ops  
+- Redis caching with invalidation  
+
+</td>
+<td width="50%">
+
+### 🐳 Infrastructure & Operations
+- Docker, VPS, Nginx, Linux, Gunicorn  
+- Deployable, rollback-friendly services  
+- DNS, SSL, env-based configuration  
+- Async / background tasks (Celery)  
+
+### 🛡️ Quality, Security & Reliability
+- PEP-8, clean code, strong type hints  
+- transaction.atomic(), idempotent APIs  
+- Secure auth, RBAC, input sanitization  
+- Brute-force protection, secrets management  
+- Structured logging, metrics, health checks  
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧭 Software Engineering Principles  
-**Focus: High-performance, scalable, production-grade APIs**  
+## 🧭 Engineering Principles
 
-> Build only what is necessary. Avoid over-engineering. Optimize for clarity, reliability, and scale.
+> **Build only what is necessary. Avoid over-engineering. Optimize for clarity, reliability, and scale.**
 
-### 🏗️ 1. Architecture & System Design
-- Modular services / microservices mindset  
-- Separation of concerns, single responsibility, DRY  
-- OOP where it improves clarity and structure  
-- Clear boundaries between API, domain, and infrastructure layers  
-- Avoid circular dependencies and tight coupling  
-- Services should be independently deployable and testable  
-- Prefer explicit API layers (DRF APIView / FastAPI routers)  
-- Goal: Systems that are **easy to change, scale, and reason about**
+<table>
+<tr>
+<td width="50%">
 
-### 🛡️ 2. Stability, Reliability & Maintainability
-- PEP-8 compliant, clean, readable, consistent codebases  
-- Strong type hints for safety and long-term maintainability  
-- Traceable, debuggable exception handling  
-- Use `transaction.atomic()` for multi-step critical operations  
-- Idempotent APIs where applicable  
+### ⚙️ API Engineering
+- Strict validation (DRF / Pydantic)  
+- Consistent response contracts  
+- Versioning, pagination, rate limiting  
+- Meaningful errors & correct status codes  
+- Logging for critical paths  
+
+### 🔍 Observability & Operability
+- Structured, searchable logs  
+- Monitoring & health checks  
+- Tracing mindset for distributed systems  
 - Production-first, predictable behavior  
-- Goal: Codebases that **survive long-term evolution without breaking**
 
-### ⚡ 3. Performance & Efficiency
-- Target: **< 200ms** latency for critical APIs  
-- Prefer **O(1)** or **O(log n)** execution paths where possible  
-- Optimized queries, proper indexing, bulk operations  
-- Avoid N+1 queries and unnecessary joins  
-- Redis caching for hot paths with proper invalidation  
-- Memory-efficient data handling and CPU-aware logic  
-- Async/background tasks for heavy workloads  
-- Horizontal-scaling-friendly designs  
-- Goal: **Blazing fast, cost-efficient, resource-aware systems**
+</td>
+<td width="50%">
 
-### 📡 4. API Quality & Consistency
-- Structured, consistent response formats  
-- Explicit and complete payloads  
-- Strict input validation (DRF serializers / Pydantic)  
-- Meaningful error messages with correct HTTP status codes  
-- API versioning, pagination, and rate limiting  
-- Logging for critical paths, warnings, and failures  
-- Goal: APIs that are **predictable, debuggable, and consumer-friendly**
-
-### 🔐 5. Security & Compliance
-- Brute-force protection and abuse prevention  
-- SQL injection prevention and input sanitization  
-- Secure authentication flows and RBAC  
-- Environment-based configuration and secret management  
-- Encryption where required  
-- Goal: **Secure by default, hardened by design**
-
-### 🔍 6. Observability & Operations
-- Structured, searchable logging  
-- Monitoring, metrics, and health checks  
-- Tracing mindset for debugging distributed systems  
-- Deployable, testable, rollback-friendly services  
-- Infrastructure-aware design (VPS, Docker, Nginx)  
-- Goal: Systems that are **operable, diagnosable, and predictable in production**
-
-### 🧰 7. Engineering Best Practices
-- PEP-8, clean architecture, consistent patterns  
+### 🧰 Engineering Best Practices
+- Clean architecture, consistent patterns  
 - Modular, scalable, testable designs  
 - No unnecessary abstractions  
-- Avoid over-engineering; build what is needed  
-- Microservices principles: independent deployability, clear contracts  
-- Goal: **Simple systems that scale, not complex systems that break**
+- Independent deployability  
+- Clear service contracts  
+
+### 🎯 North Star
+- Simple systems that scale  
+- Secure by default  
+- Easy to change and reason about  
+- Reliable in production  
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -98,7 +100,7 @@ RESTful APIs • Auth Systems • Service-Oriented Design • Clean Architecture
 
 ### 🐳 Infrastructure & DevOps
 VPS • Docker • Nginx • Gunicorn • Linux  
-DNS & Domain Management • SSL/TLS • SSH • Basic CI/CD
+DNS & Domain Management • SSL/TLS • SSH • CI/CD Basics
 
 ### 🏗️ Systems & Engineering
 System Design • Horizontal Scaling • Caching Strategies  
@@ -107,11 +109,15 @@ Observability (logs/metrics mindset) • Maintainable Codebases
 
 ---
 
-## 📊 Engineering Stats
+## 📊 Engineering & Problem Solving Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TechbyAbrar&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800" height="165"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechbyAbrar&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/techbyabrar?theme=dark&font=Karma&ext=heatmap" />
 </p>
 
 ---
@@ -129,10 +135,10 @@ Observability (logs/metrics mindset) • Maintainable Codebases
 
 ## 🚧 What I’m Building & Improving
 
-- Designing systems that support **horizontal scaling & high availability**  
+- Designing systems for **horizontal scaling & high availability**  
 - Improving **deployment pipelines & infrastructure automation**  
-- Deepening **system design & core engineering practices**  
-- Learning **Go** for building fast, efficient backend services  
+- Deepening **system design & core engineering**  
+- Learning **Go (Golang)** for high-performance backend systems  
 - Solving **algorithmic & engineering problems** consistently  
 
 ---
@@ -165,15 +171,3 @@ Observability (logs/metrics mindset) • Maintainable Codebases
 ![Docs](https://img.shields.io/badge/Documentation-000000?style=for-the-badge&logo=readthedocs&logoColor=white)
 
 ![Go](https://img.shields.io/badge/Go-Learning-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-
-## 📊 Engineering & Problem Solving Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TechbyAbrar&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechbyAbrar&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/techbyabrar?theme=dark&font=Karma&ext=heatmap" />
-</p>
